@@ -1,4 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+.headerofdeath {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 2rem;
+}
+
 body {
-    background-color: red;
-    color: white;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(255, 29, 29), whitesmoke);
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    cursor: url("/sucre-dorge.png"), default;
+    font-family: 'Mountains of Christmas';
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.songandtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.song {
+    width: 20%;
+    margin-right: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.signature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.unicorn {
+    width: 126px;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .songandtext {
+        flex-direction: column;
+    }
+
+    .song {
+        width: auto;
+        margin-right: 0;
+    }
+
+    .unicorn{
+        width: 80px;
+        margin-left: 0;
+            }
+    .signature {
+        flex-direction: column;
+        margin: 1rem;
+    }
 }
