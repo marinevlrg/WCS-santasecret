@@ -20,7 +20,7 @@ body {
     position: relative;
     min-height: 100vh;
     min-width: 100vw;
-    cursor: url("/sucre-dorge.png"), default;
+    cursor: url("sucre-dorge.png"), default;
     font-family: 'Mountains of Christmas';
 }
 
